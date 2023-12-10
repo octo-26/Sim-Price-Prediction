@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="enforce_presence_of_all_columns_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="enforce_presence_of_all_columns" type="xboolean" value="true"/>
+        <config key="fail_on_predict_exception_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="fail_on_predict_exception" type="xboolean" value="true"/>
+        <config key="treat_unknown_as_NA_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="treat_unknown_as_NA" type="xboolean" value="true"/>
+        <config key="change_pred_col_name_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="change_pred_col_name" type="xboolean" value="true"/>
+        <config key="pred_col_name_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="pred_col_name" type="xstring" value="price_vnd"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.ext.h2o.mojo.nodes.scorer.regression.H2OMojoRegressionPredictorNodeFactory"/>
+    <entry key="node-name" type="xstring" value="H2O MOJO Predictor (Regression)"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME H2O Machine Learning Integration - MOJO Extension"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.h2o.mojo"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG"/>
+    <entry key="node-bundle-version" type="xstring" value="4.6.0.v202205311104"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME H2O Machine Learning Integration - MOJO Extension"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.h2o.mojo.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.6.0.v202205311104"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="H2O MOJO Predictor (Regression)"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 149060, Cols: 33"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="b6e8e33e-81d6-4edb-ae77-8f79e09a1b73"/>
+    </config>
+</config>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">simon</element><element xmlns="" form="date" name="Creation Date">10/6/2017/10:0:54 +02:00</element><element xmlns="" form="multiline" name="Comments">H2O AutoML for Regression
+
+This example shows how to build a regression model with H2O AutoML, predict new data and score the regression metrics for model evaluation.
+
+1. Prepare:
+Load the  Combined Cycle Power Plant data, import the resulting KNIME Table to H2O and partition the data for test and train set 20/80.
+
+2. Learn:
+We learn the regression model using the "H2O AutoML Learner (Regression)" node using the default algorithm settings but limiting the max runtime to 60 seconds. The node learns and optimizes multiple different models and selects automatically the best one. The node outputs are the selected model and a leaderboard showing the metrics for the different models. The first row of the leaderboard is the selected model.
+
+3. Predict:
+Make predictions on test data using the selected model. 
+
+4. Score:
+In order to evaluate our model, we assess different metrics by scoring the predictions made on the test data. 
+
+
+URL: Combined Cycle Power Plant data http://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant
+URL: H2O AutoML documentation https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html
+URL: H2O AutoML Tutorial https://docs.h2o.ai/h2o-tutorials/latest-stable/h2o-world-2017/automl/index.html
+TAGS: H2O,machine learning,automl,regression,automated,automatic</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2021-06-01 10:45:50 +0200</element><element xmlns="" form="text " name="Last Edited" read-only="true">2021-06-01 10:44:43 +0200</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>
